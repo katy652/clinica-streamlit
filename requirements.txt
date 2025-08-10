@@ -1,1 +1,25 @@
-streamlit
+# Paquetes principales
+streamlit==1.32.2
+pandas==2.1.4
+numpy==1.26.3
+scikit-learn==1.3.2
+
+# Generación de datos sintéticos
+faker==19.13.0
+
+# Manipulación de fechas
+python-dateutil==2.8.2
+
+# Visualización de datos
+plotly==5.18.0
+matplotlib==3.8.2
+
+# Base de datos (opcional para persistencia)
+sqlalchemy==2.0.23
+
+# Procesamiento extra (si usas modelos ML avanzados)
+joblib==1.3.2
+tensorflow==2.14.0  # Solo si usas redes neuronales
+
+# Utilidades
+python-dotenv==1.0.0  # Para manejar variables de entorno
